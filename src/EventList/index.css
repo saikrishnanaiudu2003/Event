@@ -1,0 +1,36 @@
+/* EventList.css */
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.event-card h3 {
+    margin: 16px 0 8px;
+}
+
+.event-card p {
+    color: #555;
+}
+
+.event-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.event-card a:hover {
+    text-decoration: underline;
+}

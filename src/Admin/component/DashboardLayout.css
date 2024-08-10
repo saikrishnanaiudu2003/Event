@@ -1,0 +1,8 @@
+/* src/components/DashboardLayout.css */
+
+
+.dashboard-content {
+    margin-left: 50%; /* same width as sidebar */
+    padding: 20px;
+   
+}

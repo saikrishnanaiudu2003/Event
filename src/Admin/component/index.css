@@ -1,0 +1,107 @@
+
+.add-event-button{
+    width: 200px;
+}/* index.css */
+
+/* Button Styles */
+.add-event-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.add-event-button:hover {
+    background-color: #0056b3;
+}
+
+/* Popup Styles */
+.popup-overlay {
+    position: fixed;
+    top: 10;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+ 
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h3 {
+    margin-top: 0;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content label {
+    margin-bottom: 10px;
+}
+
+.popup-content input, .popup-content textarea {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popup-content button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #218838;
+}
+
+/* Events List Styles */
+.events-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.event-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    width: 500px;
+}
+
+.event-item h3 {
+    margin-top: 0;
+}
+
+.event-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.edit-button{
+    margin-bottom: 50px;
+}
